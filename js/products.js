@@ -22,7 +22,7 @@ const LOCAL_PRODUCTS_FALLBACK = [
     "featured": true,
     "rating": 5.0,
     "reviewsCount": 18
-  }
+  },
   {
     "id": "swim-001",
     "name": "The Sienna Crochet Bikini Set",
@@ -227,7 +227,7 @@ async function fetchCatalog() {
     if (window.location.protocol === 'file:') {
       catalogProducts = LOCAL_PRODUCTS_FALLBACK;
     } else {
-      const res = await fetch('data/products.json').catch(() => fetch('../data/products.json')).catch(() => null);
+      const res = await fetch('data/products.json?v=' + Date.now()).catch(() => fetch('../data/products.json?v=' + Date.now())).catch(() => null);
       if (res && res.ok) {
         catalogProducts = await res.json();
       } else {
