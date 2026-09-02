@@ -1,0 +1,18 @@
+[
+  {
+    "id": "amalfi-26",
+    "name": "Amalfi Coast '26 Collection",
+    "status": "Now Available",
+    "statusType": "available",
+    "description": "Sun-drenched terracotta and unbleached organic linen crocheted silhouettes designed for Mediterranean living.",
+    "image": "assets/images/collection-amalfi.svg"
+  },
+  {
+    "id": "sienna-sunset",
+    "name": "Sienna Sunset Capsule",
+    "status": "Pre-Order",
+    "statusType": "preorder",
+    "description": "Rich earthy clay bikinis and sheer resort cover-ups crafted for sunset lounging and low-impact coastal wear.",
+    "image": "assets/images/collection-sienna.svg"
+  }
+]

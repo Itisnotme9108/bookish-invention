@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EDITORIAL RESORT — Handcrafted Swimwear &amp; Resortwear</title>
+  <meta name="description"
+    content="High-end resort-wear and intimate apparel handcrafted from unbleached linen, organic cotton, and fine bamboo threads. Discover artisanal bikinis and bespoke fits.">
+
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="EDITORIAL RESORT — Handcrafted Swimwear &amp; Resortwear">
+  <meta property="og:description" content="Artisanal crochet resort-wear, bikini sets, and bespoke swimwear fitting.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/images/hero-lookbook.svg">
+
+  <!-- Google Fonts Integration -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap"
+    rel="stylesheet">
+
+  <!-- External Stylesheets -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+  <!-- Branded Brief Loader (Phase 4) -->
+  <div class="site-loader" id="siteLoader" aria-hidden="true">
+    <div class="site-loader-content">
+      <span class="brand-wordmark" style="font-size: 1.4rem; color: var(--text-main);">EDITORIAL RESORT</span>
+      <span class="micro-label"
+        style="letter-spacing: 3px; margin-top: 0.4rem; color: var(--accent-terracotta);">ATELIER '26 ✦</span>
+    </div>
+  </div>
+
+  <!-- Noise Texture Overlay (Phase 4) -->
+  <div class="noise-overlay" aria-hidden="true"></div>
+
+  <!-- Custom Cursor for Desktop (Phase 4) -->
+  <div class="custom-cursor" id="customCursor" aria-hidden="true"><span>VIEW</span></div>
+
+  <!-- =========================================================================
+       HEADER & NAVIGATION BAR
+       ========================================================================= -->
+  <header class="navbar" id="topHeader">
+    <div class="container nav-container">
+      <a href="index.html" class="brand-wordmark" aria-label="Editorial Resort Homepage">
+        Editorial Resort
+      </a>
+
+      <!-- Navigation Links -->
+      <nav>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="pages/shop.html" class="nav-link">Shop</a></li>
+          <li><a href="#categories" class="nav-link">Categories</a></li>
+          <li><a href="pages/bespoke.html" class="nav-link">Custom Fit</a></li>
+          <li><a href="#process" class="nav-link">Process</a></li>
+          <li><a href="#philosophy" class="nav-link">Atelier</a></li>
+        </ul>
+      </nav>
+
+      <!-- Cart & Nav Actions -->
+      <div class="nav-actions">
+        <button class="icon-btn" id="searchBtn" aria-label="Search Catalog">
+          <svg width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+          </svg>
+        </button>
+
+        <button class="icon-btn" id="accountBtn" aria-label="Customer Account">
+          <svg width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M16 7a4 4 0 11-8 0 4 4 0 00-7 7h14a7 7 0 00-7-7z" />
+          </svg>
+        </button>
+
+        <button class="cart-trigger-btn" id="cartTriggerBtn" aria-label="Open Shopping Bag">
+          <span>Bag</span>
+          <span class="cart-badge" id="cartHeaderBadge">0</span>
+        </button>
+
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle Navigation Menu" aria-expanded="false">
+          <svg width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- =========================================================================
+         1. HERO REDESIGN
+         ========================================================================= -->
+    <section class="hero-lookbook" id="heroSection" aria-label="Editorial Lookbook Hero">
+      <div class="hero-img-wrapper">
+        <img src="assets/images/hero.png" alt="Editorial Resort Swimwear Lookbook" class="hero-background-img">
+      </div>
+      <div class="hero-dark-overlay"></div>
+
+      <div class="container">
+        <div class="hero-content-wrapper">
+          <span class="eyebrow-label hero-eyebrow">HANDMADE • RESORT '26</span>
+          <h1 class="hero-title">
+            Sculpted in Thread<br>
+            <span class="hero-title-sub">Sun-Drenched by Design</span>
+          </h1>
+          <p class="hero-tagline">
+            Artisanal resort-wear and high-waist bikini silhouettes handcrafted from unbleached linen and fine bamboo
+            yarn. Restrained luxury for coastal living.
+          </p>
+          <div class="hero-cta-group">
+            <a href="pages/shop.html" class="btn btn-solid">
+              Shop Collection ✦
+            </a>
+            <a href="#categories" class="btn btn-outline btn-hero-secondary">
+              Explore Lookbook
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Animated Floating Scroll Indicator -->
+      <div class="hero-scroll-indicator" id="heroScrollIndicator" aria-hidden="true">
+        <span>Scroll to explore</span>
+        <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+        </svg>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         2. ASYMMETRICAL CATEGORY EDITORIAL GRID
+         ========================================================================= -->
+    <section style="padding: 5rem 0;" id="categories" class="reveal-on-scroll" aria-label="Resort Swim Categories">
+      <div class="container">
+        <div class="section-header">
+          <span class="micro-label">Curated Collections</span>
+          <h2>Explore by Silhouette</h2>
+        </div>
+
+        <div class="category-editorial-grid">
+          <a href="pages/shop.html" class="category-tile tile-hero">
+            <img src="assets/images/sienna-set.svg" alt="Bikini Sets Collection" loading="lazy">
+            <div class="category-tile-overlay"></div>
+            <div class="category-tile-content">
+              <h3 class="category-tile-title">Bikini Sets</h3>
+              <p class="category-tile-subtitle">Independent Dual Sizing • Halter &amp; Tie-Side</p>
+            </div>
+          </a>
+
+          <a href="pages/shop.html" class="category-tile tile-secondary-1">
+            <img src="assets/images/amalfi-top.svg" alt="Swim Tops Collection" loading="lazy">
+            <div class="category-tile-overlay"></div>
+            <div class="category-tile-content">
+              <h3 class="category-tile-title">Swim Tops</h3>
+              <p class="category-tile-subtitle">Ribbed Halters &amp; Underwire</p>
+            </div>
+          </a>
+
+          <a href="pages/shop.html" class="category-tile tile-secondary-2">
+            <img src="assets/images/dune-bottom.svg" alt="Swim Bottoms Collection" loading="lazy">
+            <div class="category-tile-overlay"></div>
+            <div class="category-tile-content">
+              <h3 class="category-tile-title">Swim Bottoms</h3>
+              <p class="category-tile-subtitle">High-Leg Cheeky &amp; Vintage Cut</p>
+            </div>
+          </a>
+
+          <a href="pages/shop.html" class="category-tile tile-secondary-3">
+            <img src="assets/images/olive-bralette.svg" alt="Resort Intimates Collection" loading="lazy">
+            <div class="category-tile-overlay"></div>
+            <div class="category-tile-content">
+              <h3 class="category-tile-title">Resort Intimates</h3>
+              <p class="category-tile-subtitle">Bamboo Bralettes &amp; Lounge Shorts</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         3. FEATURED READYMADE PRODUCTS GRID
+         ========================================================================= -->
+    <section class="catalog-section reveal-on-scroll" id="featuredCatalog" aria-label="Featured Swimwear Catalog">
+      <div class="container">
+        <div class="section-header">
+          <span class="micro-label">Curated Selection</span>
+          <h2>New Arrivals &amp; Essential Sets</h2>
+          <p>Each set is handcrafted with independent top and bottom sizing to ensure an exact, tailored fit for your
+            silhouette.</p>
+        </div>
+
+        <div class="products-grid horizontal-scroll-mobile" id="featuredProductsGrid"></div>
+
+        <div style="text-align: center; margin-top: 3.5rem;">
+          <a href="pages/shop.html" class="btn btn-outline">
+            View Complete Catalog
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      <div class="hairline-divider"></div>
+    </div>
+
+    <!-- =========================================================================
+         4. ATELIER PROCESS SECTION (Phase 3a)
+         ========================================================================= -->
+    <section style="padding: 5rem 0;" id="process" class="reveal-on-scroll" aria-label="Atelier Craftsmanship Process">
+      <div class="container">
+        <div class="section-header">
+          <span class="micro-label">Slow Craftsmanship</span>
+          <h2>The Atelier Knotted Process</h2>
+          <p>Five meticulous steps from unspun natural fibers to your finished resortwear piece.</p>
+        </div>
+
+        <div class="process-steps-grid">
+          <div class="process-step-item">
+            <span class="process-step-num">01</span>
+            <h4>Yarn Selection</h4>
+            <p>Sourcing organic linen, fast-drying cotton, and hypoallergenic bamboo threads.</p>
+          </div>
+
+          <div class="process-step-item">
+            <span class="process-step-num">02</span>
+            <h4>Hand Knotting</h4>
+            <p>Loop-by-loop hand stitching for structural tension and soft stretch memory.</p>
+          </div>
+
+          <div class="process-step-item">
+            <span class="process-step-num">03</span>
+            <h4>Silhouette Shaping</h4>
+            <p>Sculpting halter lines, scalloped hems, and high-cut skimpy bottoms to proportion.</p>
+          </div>
+
+          <div class="process-step-item">
+            <span class="process-step-num">04</span>
+            <h4>Soft Elastic Lining</h4>
+            <p>Reinforcing interior edges with subtle elastic bands to preserve shape in ocean water.</p>
+          </div>
+
+          <div class="process-step-item">
+            <span class="process-step-num">05</span>
+            <h4>Final Quality Inspection</h4>
+            <p>Inspecting tension, hardware security, and finishing stitches before atelier dispatch.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         5. INTERACTIVE 3-STEP CUSTOM-FIT EXPERIENCE
+         ========================================================================= -->
+    <section style="padding: 4.5rem 0; background-color: var(--bg-sand);" class="reveal-on-scroll"
+      aria-label="3-Step Custom Fit Process">
+      <div class="container">
+        <div class="section-header">
+          <span class="micro-label">Atelier Precision</span>
+          <h2>The Bespoke Fit Journey</h2>
+          <p>Three effortless steps to a custom-knitted swimsuit tailored precisely to your proportions.</p>
+        </div>
+
+        <div class="fit-steps-grid">
+          <div class="fit-step-card">
+            <span class="fit-step-number">01</span>
+            <h3>Measure Your Proportions</h3>
+            <p>Record your full bust, underbust, natural waist, and full hip dimensions using a flexible measuring tape.
+            </p>
+            <span class="micro-label" style="margin-top: 1rem; color: var(--accent-terracotta);">Bust • Underbust •
+              Waist • Hip</span>
+          </div>
+
+          <div class="fit-step-card">
+            <span class="fit-step-number">02</span>
+            <h3>Select Your Silhouette</h3>
+            <p>Choose your garment cut (Bikini Set, Monokini, Top/Bottom Only, or Intimate set) and custom yarn
+              colorway.</p>
+            <span class="micro-label" style="margin-top: 1rem; color: var(--accent-terracotta);">Linen • Cotton •
+              Bamboo</span>
+          </div>
+
+          <div class="fit-step-card">
+            <span class="fit-step-number">03</span>
+            <h3>We Craft Your Fit</h3>
+            <p>Our master knitter constructs your piece loop-by-loop. Shipped directly to your door in eco-packaging.
+            </p>
+            <a href="pages/bespoke.html" class="btn btn-solid btn-sm" style="margin-top: 1rem;">
+              Begin Fit Form ✦
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         6. INSTAGRAM-STYLE GALLERY & LIGHTBOX (Phase 3b)
+         ========================================================================= -->
+    <section style="padding: 5rem 0;" class="reveal-on-scroll" aria-label="Follow the Atelier Gallery">
+      <div class="container">
+        <div class="section-header">
+          <span class="micro-label">@EDITORIALRESORT</span>
+          <h2>Follow the Atelier</h2>
+          <p>Client moments, studio fitting sessions, and coastal lookbook captures.</p>
+        </div>
+
+        <div class="atelier-gallery-grid">
+          <div class="gallery-item" data-img="assets/images/sienna-set.svg"
+            data-caption="The Sienna Bikini Set in unbleached organic linen • Amalfi Coast">
+            <img src="assets/images/sienna-set.svg" alt="Sienna Set Lookbook" loading="lazy">
+            <div class="gallery-item-overlay"><span>VIEW ✦</span></div>
+          </div>
+
+          <div class="gallery-item" data-img="assets/images/amalfi-top.svg"
+            data-caption="The Amalfi Terracotta Halter Top • Sun-drenched lounging">
+            <img src="assets/images/amalfi-top.svg" alt="Amalfi Top Lookbook" loading="lazy">
+            <div class="gallery-item-overlay"><span>VIEW ✦</span></div>
+          </div>
+
+          <div class="gallery-item" data-img="assets/images/paloma-set.svg"
+            data-caption="The Paloma Monokini Set • Sheer lace cutout detailing">
+            <img src="assets/images/paloma-set.svg" alt="Paloma Monokini Lookbook" loading="lazy">
+            <div class="gallery-item-overlay"><span>VIEW ✦</span></div>
+          </div>
+
+          <div class="gallery-item" data-img="assets/images/solis-set.svg"
+            data-caption="The Solis Terracotta Set with molded brass hardware accents">
+            <img src="assets/images/solis-set.svg" alt="Solis Bikini Set Lookbook" loading="lazy">
+            <div class="gallery-item-overlay"><span>VIEW ✦</span></div>
+          </div>
+
+          <div class="gallery-item" data-img="assets/images/bone-shorts.svg"
+            data-caption="High-waist knit lounge shorts in unbleached bone yarn">
+            <img src="assets/images/bone-shorts.svg" alt="Bone Shorts Intimates Lookbook" loading="lazy">
+            <div class="gallery-item-overlay"><span>VIEW ✦</span></div>
+          </div>
+
+          <div class="gallery-item" data-img="assets/images/capri-top.svg"
+            data-caption="The Capri Underwire Top with gold clasp detailing">
+            <img src="assets/images/capri-top.svg" alt="Capri Underwire Top Lookbook" loading="lazy">
+            <div class="gallery-item-overlay"><span>VIEW ✦</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         7. CRAFTSMANSHIP & ATELIER PHILOSOPHY
+         ========================================================================= -->
+    <section style="padding: 4rem 0;" id="philosophy" class="reveal-on-scroll" aria-label="Atelier Philosophy">
+      <div class="container story-grid">
+        <div>
+          <span class="micro-label">Sustainable Atelier</span>
+          <h2>Restrained Craftsmanship, Uncompromised Comfort</h2>
+          <p style="color: var(--text-muted); font-size: 1.05rem; margin: 1.25rem 0 2rem; line-height: 1.7;">
+            We reject mass production in favor of slow, deliberate knotting and stitching. Using fast-drying organic
+            cotton, unbleached linen, and hypoallergenic bamboo threads, our garments transition effortlessly from ocean
+            waters to sunlit lounges.
+          </p>
+
+          <div class="story-stats-grid">
+            <div style="border-left: 2px solid var(--text-main); padding-left: 1rem;">
+              <span
+                style="font-family: var(--font-serif); font-size: 1.8rem; font-weight: 600; display: block;">100%</span>
+              <span class="micro-label" style="margin-top: 0.25rem;">Organic Yarns</span>
+            </div>
+            <div style="border-left: 2px solid var(--text-main); padding-left: 1rem;">
+              <span
+                style="font-family: var(--font-serif); font-size: 1.8rem; font-weight: 600; display: block;">Dual</span>
+              <span class="micro-label" style="margin-top: 0.25rem;">Independent Sizing</span>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <img src="assets/images/philosophy-lookbook.svg" alt="Craftsmanship Atelier Moodboard"
+            class="drop-banner-img">
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         8. SWIPEABLE CLIENT TESTIMONIALS
+         ========================================================================= -->
+    <section class="confidence-section reveal-on-scroll" aria-label="Client Testimonials & Fits">
+      <div class="container">
+        <div class="section-header" style="margin-bottom: 2.5rem;">
+          <span class="micro-label">Atelier Reviews</span>
+          <h2>Client Fit &amp; Craft Confidence</h2>
+        </div>
+
+        <div class="confidence-grid testimonials-carousel">
+          <div class="confidence-card">
+            <div style="color: var(--accent-terracotta); margin-bottom: 0.5rem;">★★★★★</div>
+            <h3>"Tailored perfection."</h3>
+            <p>"Having different sizes for top and bottom is a total game changer. The unbleached linen yarn feels
+              incredibly luxurious."</p>
+            <span class="micro-label" style="margin-top: 1rem; color: var(--text-main);">— Elena V., Malibu</span>
+          </div>
+
+          <div class="confidence-card">
+            <div style="color: var(--accent-terracotta); margin-bottom: 0.5rem;">★★★★★</div>
+            <h3>"Fast-drying &amp; supportive."</h3>
+            <p>"The Amalfi Halter top holds its shape in the water and dries surprisingly fast in the sun. Stunning
+              terracotta hue."</p>
+            <span class="micro-label" style="margin-top: 1rem; color: var(--text-main);">— Camille R., St. Tropez</span>
+          </div>
+
+          <div class="confidence-card">
+            <div style="color: var(--accent-terracotta); margin-bottom: 0.5rem;">★★★★★</div>
+            <h3>"Flawless bespoke fitting."</h3>
+            <p>"I ordered custom waist and hip dimensions. The fit is exact — no sagging or squeezing anywhere."</p>
+            <span class="micro-label" style="margin-top: 1rem; color: var(--text-main);">— Sophia L., Capri</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================================================
+       FOOTER
+       ========================================================================= -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <span class="brand-wordmark">Editorial Resort</span>
+          <p>A luxury resort-wear and intimate apparel studio. Handcrafted with unbleached organic linen, bamboo, and
+            sustainable cotton threads.</p>
+        </div>
+
+        <div class="footer-column">
+          <h4>Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="pages/shop.html">Shop Readymade</a></li>
+            <li><a href="pages/bespoke.html">Bespoke Fits</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h4>Collections</h4>
+          <ul class="footer-links">
+            <li><a href="pages/shop.html">Bikini Sets</a></li>
+            <li><a href="pages/shop.html">Swim Tops</a></li>
+            <li><a href="pages/shop.html">Swim Bottoms</a></li>
+            <li><a href="pages/shop.html">Intimates</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h4>Atelier Dispatch</h4>
+          <p style="font-size: 0.88rem; color: var(--text-light); margin-bottom: 1rem;">Subscribe to private collection
+            drops and editorial lookbooks.</p>
+          <form onsubmit="event.preventDefault(); alert('Thank you for subscribing to Editorial Resort.');"
+            style="display: flex; gap: 0.5rem;">
+            <input type="email" class="form-control" placeholder="Email address" required
+              aria-label="Email for newsletter" style="padding: 0.6rem 0.85rem; font-size: 0.85rem;">
+            <button type="submit" class="btn btn-solid btn-sm">Join</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; <span id="currentYear">2026</span> EDITORIAL RESORT ATELIER. ALL RIGHTS RESERVED.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- =========================================================================
+       3C. FLOATING WHATSAPP BUTTON (Phase 3c)
+       Note: Replace 15551234567 below with the actual business WhatsApp number before launch
+       ========================================================================= -->
+  <a href="https://wa.me/15551234567?text=Hi!%20I'm%20interested%20in%20your%20handmade%20pieces."
+    class="whatsapp-float-btn" target="_blank" rel="noopener noreferrer" aria-label="Contact Atelier via WhatsApp">
+    <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+      <path
+        d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z" />
+    </svg>
+  </a>
+
+  <!-- =========================================================================
+       3B. GALLERY LIGHTBOX MODAL (Phase 3b)
+       ========================================================================= -->
+  <div class="gallery-lightbox-backdrop" id="galleryLightbox" aria-hidden="true" role="dialog" aria-modal="true"
+    aria-label="Gallery Image Lightbox">
+    <div class="gallery-lightbox-content">
+      <button class="lightbox-close-btn" id="lightboxCloseBtn" aria-label="Close image lightbox">&times;</button>
+      <img src="" alt="Atelier Lookbook Full View" id="lightboxImg">
+      <p id="lightboxCaption" class="lightbox-caption"></p>
+    </div>
+  </div>
+
+  <!-- =========================================================================
+       PRODUCT QUICK-VIEW MODAL CONTAINER
+       ========================================================================= -->
+  <div class="product-modal-backdrop" id="productQuickViewBackdrop" aria-hidden="true" role="dialog" aria-modal="true"
+    aria-label="Product Quick View">
+    <div class="product-modal">
+      <button class="modal-close-btn" id="productModalCloseBtn" aria-label="Close product view">&times;</button>
+      <div id="productModalBody"
+        style="grid-column: 1/-1; display: grid; grid-template-columns: 1fr 1fr; gap: 2.5rem; width: 100%;"></div>
+    </div>
+  </div>
+
+  <!-- =========================================================================
+       SLIDE-OUT SHOPPING CART DRAWER COMPONENT
+       ========================================================================= -->
+  <div class="cart-drawer-backdrop" id="cartDrawerBackdrop" aria-hidden="true" role="dialog" aria-modal="true"
+    aria-label="Shopping Bag Drawer">
+    <div class="cart-drawer" id="cartDrawer">
+      <div class="drawer-header">
+        <h3>Shopping Bag</h3>
+        <button class="drawer-close-btn" id="cartDrawerCloseBtn" aria-label="Close Shopping Bag">&times;</button>
+      </div>
+
+      <div class="drawer-body" id="cartDrawerItems"></div>
+
+      <div class="drawer-footer">
+        <div class="drawer-subtotal">
+          <span>Subtotal</span>
+          <span class="amount" id="cartSubtotalAmount">$0.00</span>
+        </div>
+        <p style="font-size: 0.8rem; color: var(--text-muted); margin-bottom: 1.25rem;">Taxes and shipping calculated at
+          checkout.</p>
+        <button class="btn btn-solid" id="checkoutCtaBtn" style="width: 100%;"
+          data-checkout-provider="stripe-payment-link">
+          Proceed to Checkout ✦
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript Modules -->
+  <script src="js/main.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/products.js"></script>
+</body>
+
+</html>
