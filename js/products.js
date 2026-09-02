@@ -6,6 +6,24 @@
 
 const LOCAL_PRODUCTS_FALLBACK = [
   {
+    "id": "resort-001",
+    "name": "The Aegean O-Ring Crochet Mini Dress",
+    "price": 210.00,
+    "category": "Resort Wear",
+    "subCategory": "resort-wear",
+    "type": "single",
+    "collection": "amalfi-26",
+    "image": "assets/images/aegean-crochet-dress.jpg",
+    "secondaryImage": "assets/images/aegean-crochet-dress.jpg",
+    "descriptor": "Hand-crocheted • Aegean dusty blue",
+    "description": "Artisanal open-stitch crochet mini dress in muted Aegean blue. Features a plunging V-neckline anchored by a central O-ring, waist cutouts, and balloon sleeves with beaded tassel ties.",
+    "variants": { "size": ["XS", "S", "M", "L"] },
+    "inStock": true,
+    "featured": true,
+    "rating": 5.0,
+    "reviewsCount": 18
+  }
+  {
     "id": "swim-001",
     "name": "The Sienna Crochet Bikini Set",
     "price": 185.00,
@@ -584,8 +602,8 @@ function attachSwatchListeners(container) {
 
       if (!product || !selections) return;
 
-      const isValid = product.type === 'set' 
-        ? (selections.top && selections.bottom) 
+      const isValid = product.type === 'set'
+        ? (selections.top && selections.bottom)
         : Boolean(selections.size);
 
       if (isValid) {

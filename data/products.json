@@ -12,8 +12,18 @@
     "descriptor": "Hand-crocheted • Unbleached organic linen",
     "description": "Hand-stitched from unbleached organic linen yarn. Features a minimal halter triangle top and high-cut skimpy bottoms with delicate hand-knotted ties.",
     "variants": {
-      "top": ["XS", "S", "M", "L"],
-      "bottom": ["XS", "S", "M", "L"]
+      "top": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "bottom": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ]
     },
     "inStock": true,
     "featured": true,
@@ -33,7 +43,12 @@
     "descriptor": "Hand-knitted • Terracotta rib",
     "description": "Sculptural ribbed crochet halter top in warm terracotta. Designed for light support with self-tie back straps and scalloped edges.",
     "variants": {
-      "size": ["XS", "S", "M", "L"]
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ]
     },
     "inStock": true,
     "featured": true,
@@ -53,7 +68,12 @@
     "descriptor": "Minimalist high-leg • Dune beige cotton",
     "description": "Minimalist high-leg crochet swim bottoms crafted in dune beige cotton yarn. Fast-drying weave with hidden elastic reinforcement.",
     "variants": {
-      "size": ["XS", "S", "M", "L"]
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ]
     },
     "inStock": true,
     "featured": false,
@@ -73,8 +93,18 @@
     "descriptor": "Resort Cutout • Sheer black lace",
     "description": "Statement cutout crochet set featuring an adjustable bralette top and high-waist vintage-cut bottom connected by sheer lace detailing.",
     "variants": {
-      "top": ["XS", "S", "M", "L"],
-      "bottom": ["XS", "S", "M", "L"]
+      "top": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "bottom": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ]
     },
     "inStock": true,
     "featured": true,
@@ -94,7 +124,12 @@
     "descriptor": "Fine bamboo thread • Soft unlined fit",
     "description": "Ultra-soft intimate bralette crocheted in fine muted olive bamboo thread. Unlined silhouette designed for lounging and low-impact wear.",
     "variants": {
-      "size": ["XS", "S", "M", "L"]
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ]
     },
     "inStock": true,
     "featured": false,
@@ -114,8 +149,18 @@
     "descriptor": "Molded cup set • Brass hardware",
     "description": "Earthy terracotta crochet bikini pairing a soft molded cup top with adjustable tie-side bottoms. Accented with brass bead hardware.",
     "variants": {
-      "top": ["XS", "S", "M", "L"],
-      "bottom": ["XS", "S", "M", "L"]
+      "top": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "bottom": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ]
     },
     "inStock": true,
     "featured": true,
@@ -135,7 +180,12 @@
     "descriptor": "High-waist lounge • Unbleached bone",
     "description": "Relaxed high-waist knit lounge shorts in unbleached bone yarn. Features a drawstring waist and fine scalloped hems.",
     "variants": {
-      "size": ["XS", "S", "M", "L"]
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ]
     },
     "inStock": true,
     "featured": false,
@@ -155,11 +205,41 @@
     "descriptor": "Underwire support • Gold clasp detail",
     "description": "Structured crochet top featuring subtle underwire support, wide shoulder straps, and custom gold-toned back clasp.",
     "variants": {
-      "size": ["XS", "S", "M", "L"]
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ]
     },
     "inStock": true,
     "featured": false,
     "rating": 4.9,
     "reviewsCount": 27
+  },
+  {
+    "id": "resort-001",
+    "name": "The Aegean O-Ring Crochet Mini Dress",
+    "price": 210.00,
+    "category": "Resort Wear",
+    "subCategory": "resort-wear",
+    "type": "single",
+    "collection": "amalfi-26",
+    "image": "assets/images/aegean-crochet-dress.jpg",
+    "secondaryImage": "assets/images/aegean-crochet-dress.jpg",
+    "descriptor": "Hand-crocheted • Aegean dusty blue",
+    "description": "Artisanal open-stitch crochet mini dress in muted Aegean blue. Features a plunging V-neckline anchored by a central O-ring, waist cutouts, and balloon sleeves with beaded tassel ties.",
+    "variants": {
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ]
+    },
+    "inStock": true,
+    "featured": true,
+    "rating": 5.0,
+    "reviewsCount": 18
   }
 ]
